@@ -21,18 +21,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home
-                    <span class="sr-only">(current)</span>
+                <a class="nav-item nav-link" href="./index.html">Home
+
                 </a>
                 <a class="nav-item nav-link" href="#">Projects</a>
-                <a class="nav-item nav-link" href="#">About</a>
+                <a class="nav-item nav-link active" href="./about.html">About
+                    <span class="sr-only">(current)</span>
+                </a>
             </div>
 
         </div>
     </nav>
-    <main class="container-fluid">
+    <main class="container-fluid about-container">
         <div class="row">
-            <div class="col-md-12 align-items-center jumbotron about-page">
+            <div class="col-sm-10 about-page">
                 <img src="./images/chris.jpg" alt="A photo of Chris Culp" class="image-fluid about-chris-pic float-left">
                 <div class="about-chris">
                     <h3>Christopher Culp</h3>
@@ -49,15 +51,31 @@
                         skills, Chris also has an eye on back-end languages that will sate his hunger for learning new things
                         haven chosen to focus on Ruby for his first back-end language.</p>
                 </div>
-                <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark"
-                    data-vanity="christopher-culp-5541b310b">
-                    <a class="LI-simple-link" href='https://www.linkedin.com/in/christopher-culp-5541b310b?trk=profile-badge'>Christopher Culp</a>
+            </div>
+
+            <div class="contact-info col-sm-2 float-right">
+                <div class="linkedin">
+                    <button id="linkedinBtn" class="btn btn-outline-dark">
+                        <h4>LinkedIn &#9660;</h4>
+                    </button>
+                    <div class="LI-profile-badge linkedin-hidden" id="liDiv" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical"
+                        data-theme="dark" data-vanity="christopher-culp-5541b310b">
+                        <a class="LI-simple-link" href='https://www.linkedin.com/in/christopher-culp-5541b310b?trk=profile-badge'>Christopher Culp</a>
+                    </div>
                 </div>
             </div>
         </div>
+
     </main>
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./scripts/aboutscript.js"></script>
+
 </body>
 
 </html>

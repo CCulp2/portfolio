@@ -9,19 +9,42 @@ body {
 
 .jumbotron {
     background-color:transparent !important;
-    margin-top: -4em;
     opacity: .30;
     color: #e2dbec;
 }
-
+/* About Page */
 .about-chris {
-    border: auto;
-    padding: 1em;
+    /* border: auto; */
+    color: whitesmoke;
+    
 }
 .about-page {
     opacity: 1;
+    margin-bottom: 0;
 }
 .about-chris-pic {
-    height: 75%;
+    height: 66%;
     margin: 1em;
 }
+
+#linkedinBtn {
+    border: none;
+
+}
+
+.linkedin-hidden {
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.about-container {
+    margin-top: 5%;
+
+    width: 66%;
+}
+
+.btn-outline-dark {
+    color: whitesmoke;
+}
+
