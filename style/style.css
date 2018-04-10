@@ -1,0 +1,27 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(#704ea3, #392951)
+}
+
+.jumbotron {
+    background-color:transparent !important;
+    margin-top: -4em;
+    opacity: .30;
+    color: #e2dbec;
+}
+
+.about-chris {
+    border: auto;
+    padding: 1em;
+}
+.about-page {
+    opacity: 1;
+}
+.about-chris-pic {
+    height: 75%;
+    margin: 1em;
+}
