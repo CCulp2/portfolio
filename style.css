@@ -3,8 +3,8 @@ body {
 }
 
 .jumbotron {
-    background-color:transparent !important;
+    /* background-color:transparent !important; */
     margin-top: -4em;
-    opacity: .30;
-    color: #e2dbec;
+    /* opacity: .30; */
+    color: #000000;
 }

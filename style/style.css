@@ -4,13 +4,13 @@ body {
 }
 
 body {
-    background: linear-gradient(#704ea3, #392951)
+    
 }
 
 .jumbotron {
-    background-color:transparent !important;
+    /* background-color:transparent !important;
     opacity: .30;
-    color: #e2dbec;
+    color: #e2dbec; */
 }
 /* About Page */
 .about-chris {
